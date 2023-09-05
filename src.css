@@ -86,17 +86,6 @@ main [class*="scroller"] {
 .tutorialContainer-2jwoiB + div {
   display: none;
 }
-[class*="welcomeCTA"] {
-  display: none;
-}
-[class*="clickableSticker"] > div[aria-label] > [class*="assetWrapper"] {
-  display: none;
-}
-[class*="clickableSticker"] > div[aria-label]::after {
-  content: "A sticker was hidden.";
-  color: rgb(128 128 128 / 65%);
-  font-weight: 500;
-}
 svg[class^="homeIcon"] path {
   d: path(
     "M 2 0 a 2 2 90 0 0 -2 2 v 12 a 2 2 90 0 0 2 2 h 2 l 0 4 l 4 -4 H 18 a 2 2 90 0 0 2 -2 V 2 a 2 2 90 0 0 -2 -2 z"
